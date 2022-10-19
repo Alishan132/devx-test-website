@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="dynamic.css" />
+  </head>
+  <style>
+    h1 {
+      display: none;
+    }
+    @media screen and (max-width: 576px) {
+      .mobile {
+        display: block;
+      }
+      body {
+        background-color: lightcyan;
+      }
+    }
+
+    h1 {
+      display: none;
+    }
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+      .tablet {
+        display: block;
+      }
+      body {
+        background-color: lightgreen;
+      }
+    }
+
+    h1 {
+      display: none;
+    }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+      .laptop {
+        display: block;
+      }
+      body {
+        background-color: lightcoral;
+      }
+    }
+
+    h1 {
+      display: none;
+    }
+    @media screen and (min-width: 993px) and (max-width: 1200px) {
+      .desktop {
+        display: block;
+      }
+      body {
+        background-color: lightgoldenrodyellow;
+      }
+    }
+
+    h1 {
+      display: none;
+    }
+    @media screen and (min-width: 1201px) {
+      .huge {
+        display: block;
+      }
+      body {
+        background-color: lightpink;
+      }
+    }
+  </style>
+  <body>
+    <h1 class="mobile">Mobile</h1>
+    <h1 class="tablet">Tablet</h1>
+    <h1 class="laptop">Laptop</h1>
+    <h1 class="desktop">Desktop</h1>
+    <h1 class="huge">Huge</h1>
+  </body>
+</html>
